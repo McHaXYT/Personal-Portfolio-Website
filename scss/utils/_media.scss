@@ -1,0 +1,331 @@
+// Laptops And Tablets
+@media (max-width: 1024px) {
+    // HERO-Section
+    .hero-section {
+        .hero {
+            &_name {
+                font-size: 32px;
+            }
+            &_des {
+                font-size: 18px;
+            }
+        }
+    }
+    // ABOUT-Section
+    .aboutme-section {
+        margin-bottom: 150px;
+        h1 {
+            font-size: 32px;
+            &::after {
+                margin: 0 auto;
+            }
+        }
+        .aboutme-container {
+            .aboutmeright {
+                &_heading {
+                    margin-bottom: 20px;
+                    &--h,
+                    &--emoji {
+                        font-size: 22px;
+                    }
+                }
+                &_des {
+                    font-size: 18px;
+                }
+                &_destwo {
+                    margin-top: 25px;
+                }
+                &_socials {
+                    a {
+                        width: 35px;
+                        height: 35px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    // Skills-Section
+    .skills-section {
+        &_heading {
+            font-size: 32px;
+            margin-bottom: 100px;
+            &::after {
+                margin: 0 auto;
+            }
+        }
+        .skills-container {
+            &_img {
+                width: 60px;
+            }
+        }
+    }
+    // Project-Section
+    .projects-section_heading {
+        font-size: 32px;
+        margin-bottom: 100px;
+        &::after {
+            margin: 0 auto;
+        }
+    }
+    .projects-section {
+        margin-bottom: 200px;
+        .projects-container {
+            .project-description {
+                &_title {
+                    font-size: 28px;
+                }
+                &_tech {
+                    &--img {
+                        width: 40px;
+                    }
+                }
+                &_links {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    // Contact Section
+    .contact-section {
+        margin: 0px 0px 150px 0px;
+        h1 {
+            font-size: 32px;
+            &::after {
+                margin: 0 auto;
+            }
+        }
+        .contact-container {
+            margin-top: 80px;
+            #form {
+                .social-links-container {
+                    &_anchor {
+                        width: 35px;
+                        height: 35px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    // Footer Section
+    .footer {
+        .footer-container {
+            &_left {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+            &_right {
+                i {
+                    width: 35px;
+                    height: 35px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+// Tablets And Mobiles
+@media (max-width: 600px) {
+    // NAV
+    .header {
+        .nav {
+            &_logo {
+                .nav_logo--heading {
+                    font-size: 20px;
+                }
+                .nav_logo--img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+    // HERO-Section
+    .hero-section {
+        .hero {
+            &_name {
+                font-size: 32px;
+            }
+            &_des {
+                font-size: 18px;
+            }
+        }
+    }
+    // ABOUT-Section
+    .aboutme-section {
+        margin-bottom: 150px;
+        .aboutme-container {
+            .aboutmeleft {
+                &_svg {
+                    width: 400px;
+                }
+            }
+            .aboutmeright {
+                &_heading {
+                    margin-bottom: 20px;
+                    &--h,
+                    &--emoji {
+                        font-size: 20px;
+                        line-height: 2.2;
+                    }
+                }
+                &_des {
+                    font-size: 15px;
+                }
+                &_destwo {
+                    margin-top: 25px;
+                    a {
+                        font-size: 16px;
+                    }
+                }
+                &_socials {
+                    a {
+                        width: 35px;
+                        height: 35px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    // SKILLS-Section
+    .skills-section {
+        .skills-container {
+            &_img {
+                width: 50px;
+            }
+        }
+    }
+    // PROJECT-Section
+    .projects-section_heading {
+        font-size: 32px;
+        margin-bottom: 100px;
+        &::after {
+            margin: 0 auto;
+        }
+    }
+    .projects-section {
+        .projects-container {
+            .project {
+                &_overlay {
+                    &--title {
+                        font-size: 18px;
+                    }
+                }
+            }
+            .project-description {
+                &_title {
+                    font-size: 25px;
+                }
+                &_des {
+                    font-size: 15px;
+                }
+                &_tech {
+                    &--img {
+                        width: 40px;
+                    }
+                }
+                &_links {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    // Contact Section
+    .contact-section {
+        .contact-container {
+            #form {
+                .input-control {
+                    input,
+                    textarea {
+                        font-size: 15px;
+                        padding: 15px 15px 15px 20px;
+                    }
+                    input {
+                        padding: 10px 0px 10px 20px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+    // Footer Section
+    .footer {
+        .footer-container {
+            margin: 0;
+            &_left {
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+// ABOUT ME
+@media (max-width: 1180px) {
+    .aboutme-container {
+        text-align: center;
+    }
+}
+// NAVBAR
+@media (max-width: 900px) {
+    nav ul a {
+        display: none;
+    }
+    .nav-link-li {
+        display: none;
+    }
+}
+@media (min-width: 900px) {
+    nav ul {
+        .mobile-menu-icon {
+            display: none;
+        }
+    }
+}
+// PROJECT
+@media (max-width: 1120px) {
+    .project-section-filter_grid {
+        display: none !important;
+        i {
+            display: none !important;
+        }
+    }
+}
+// CONTACT
+@media (max-width: 710px) {
+    .contact-section {
+        .contact-container {
+            #form {
+                gap: 0.5rem;
+                .formname-container {
+                    gap: 0.5rem;
+                    .input-control {
+                        width: 100%;
+                    }
+                }
+                button {
+                    max-width: 100%;
+                    width: 100%;
+                    padding: 13px 0;
+                    margin: 10px 0px 0px 0px;
+                }
+            }
+        }
+    }
+}
+// FOOTER
+@media (max-width: 825px) {
+    .footer {
+        .footer-container {
+            justify-content: center;
+        }
+    }
+}

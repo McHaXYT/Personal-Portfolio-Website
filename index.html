@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lobster&family=Recursive&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/img/Web-Logo.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="assets/css/aos.css" />
+        <title>Hasnain Liaquat | Web Developer</title>
+    </head>
+    <body>
+        <!-- // HEADER AND NAVIGATIONS -->
+        <div class="header">
+            <nav class="nav">
+                <div class="nav_logo flex-center">
+                    <a href="#heroSection" class="flex-center">
+                        <img
+                            src="assets/img/Web-Logo.png"
+                            alt="Hasnain-Liaquat-Logo"
+                            class="nav_logo--img"
+                        />
+                        <h1 class="nav_logo--heading">Hasnain.dev</h1>
+                    </a>
+                </div>
+                <div class="nav_links">
+                    <ul class="nav_links--ul">
+                        <li class="nav-link-li">
+                            <a href="#hero-Section" class="full-underline"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-link-li">
+                            <a href="#about-section">About</a>
+                        </li>
+                        <li class="nav-link-li">
+                            <a href="#skill-section">Skills</a>
+                        </li>
+                        <li class="nav-link-li">
+                            <a href="#project-section">Projects</a>
+                        </li>
+                        <li class="nav-link-li">
+                            <a href="#contact-Us">Contact Me</a>
+                        </li>
+                        <li>
+                            <div>
+                                <input
+                                    type="checkbox"
+                                    class="checkbox"
+                                    id="checkbox"
+                                />
+                                <label for="checkbox" class="checkbox-label">
+                                    <i class="fas fa-moon"></i>
+                                    <i class="fas fa-sun"></i>
+                                    <span class="ball"></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <i
+                                class="fa fa-bars mobile-menu-icon"
+                                id="MobileMenuOpenBtn"
+                            ></i>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="mobile-nav closed-menu" id="mobileMenu">
+                <span class="mobile-nav_close">
+                    <i class="fa fa-close" id="MobileMenuCloseBtn"></i>
+                </span>
+                <ul class="mobile-nav_ul">
+                    <li class="mobile-nav_ul--li">
+                        <a href="#hero-Section" class="full-underline">Home</a>
+                    </li>
+                    <li class="mobile-nav_ul--li">
+                        <a href="#about-section">About</a>
+                    </li>
+                    <li class="mobile-nav_ul--li">
+                        <a href="#skill-section">Skills</a>
+                    </li>
+                    <li class="mobile-nav_ul--li">
+                        <a href="#project-section">Projects</a>
+                    </li>
+                    <li class="mobile-nav_ul--li">
+                        <a href="#contact-Us">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- // MAIN WEBSITE CONTENT -->
+        <main>
+            <!-- // HERO SECTION -->
+            <section
+                class="hero-section flex-center body-section"
+                id="hero-Section"
+            >
+                <div class="hero flex-center flex-column">
+                    <img
+                        src="assets/img/Working-bro.png"
+                        alt="Programming-svg"
+                        title="Just Me"
+                        class="hero_img"
+                    />
+                    <h1 class="hero_name">Hasnain Liaquat</h1>
+                    <p class="hero_des">
+                        <span role="img" aria-label="Graduation Cap">🎓</span>
+                        I'm A
+                        <span id="typed-jobspan" class="hero_des--job"></span>
+                        <span class="typed-cursor" aria-hidden="true"></span>
+                        <span role="img" aria-label="Programming Emoji"
+                            >👨🏻‍💻</span
+                        >
+                    </p>
+                    <a href="#about-section" class="hero_downbtn flex-center">
+                        <i class="fa fa-arrow-down"></i>
+                    </a>
+                </div>
+            </section>
+            <!-- // ABOUT ME SECTION -->
+            <section
+                class="aboutme-section aos-init aos-animate body-section"
+                id="about-section"
+                data-aos="fade-up"
+            >
+                <h1
+                    class="aboutme-section_heading text-center basic_heading"
+                    id="about-section"
+                >
+                    About Me
+                </h1>
+                <div class="aboutme-container flex-center">
+                    <div class="aboutmeleft flex-center">
+                        <img
+                            src="assets/img/Researching-bro.png"
+                            alt="aboutme-svg"
+                            title="Just Me"
+                            class="aboutmeleft_svg"
+                        />
+                    </div>
+                    <div class="aboutmeright flex-center flex-column">
+                        <p class="aboutmeright_heading">
+                            <span class="aboutmeright_heading--h">
+                                I'm Hasnain, A Web Developer And Email Developer
+                                Working Remotely From Pakistan.
+                            </span>
+                            <span
+                                role="img"
+                                aria-label="World Map Emoji"
+                                class="aboutmeright_heading--emoji"
+                            >
+                                🗺️</span
+                            >
+                            <span
+                                role="img"
+                                aria-label="Pin Emoji"
+                                class="aboutmeright_heading--emoji"
+                                >📍</span
+                            >
+                        </p>
+                        <p class="aboutmeright_des">
+                            I've always been passionate about learning new
+                            skills 🎯 in life and never stop, The endless
+                            learning path in the tech industry has always driven
+                            me crazy with the will to be the best in my skill
+                            set ! . I'm 16 and in college 🏫 right now pursuing
+                            my career in computer science 🎓.
+                        </p>
+                        <p class="aboutmeright_des aboutmeright_destwo">
+                            🤝 Think we could work together ? Feel free to
+                            <a href="#contactUs">contact me.</a> 📞
+                        </p>
+                        <div class="aboutmeright_socials flex-center">
+                            <a href="" class="flex-center">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="" class="flex-center">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="" class="flex-center">
+                                <i class="fa fa-github"></i>
+                            </a>
+                            <a href="" class="flex-center">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // SKILLS SECTION -->
+            <section
+                class="skills-section aos-init aos-animate body-section"
+                id="skill-section"
+                data-aos="fade-up"
+            >
+                <h1 class="basic_heading skills-section_heading text-center">
+                    My SKills And Tech
+                </h1>
+                <div class="skills-container flex-center">
+                    <img
+                        src="assets/img/CSS3-Logo.png"
+                        class="skills-container_img"
+                        alt="css-logo"
+                        title="CSS"
+                    />
+                    <img
+                        src="assets/img/HTML5-Logo.png"
+                        class="skills-container_img"
+                        alt="html-logo"
+                        title="HTML"
+                    />
+                    <img
+                        src="assets/img/JS-Logo.png"
+                        class="skills-container_img"
+                        alt="JS-logo"
+                        title="JavaScript"
+                    />
+                    <img
+                        src="assets/img/SASS-Logo.png"
+                        class="skills-container_img"
+                        alt="SASS-logo"
+                        title="SASS"
+                    />
+                    <img
+                        src="assets/img/Bootstrap-Logo.png"
+                        class="skills-container_img"
+                        alt="Bootstrap-logo"
+                        title="Bootstrap"
+                    />
+                    <img
+                        src="assets/img/MJML.svg"
+                        class="skills-container_img"
+                        alt="MJML-LOGO"
+                        title="MJML"
+                    />
+                    <img
+                        src="assets/img/Git-Logo.png"
+                        class="skills-container_img"
+                        alt="GIT-LOGO"
+                        title="GIT"
+                    />
+                    <img
+                        src="assets/img/Github-Logo-PNG.png"
+                        class="skills-container_img"
+                        alt="GITHUB-LOGO"
+                        title="GITHUB"
+                    />
+                </div>
+            </section>
+            <!-- // PROJECTS SECTION -->
+            <section
+                class="body-section project-section-container"
+                id="project-section"
+            >
+                <h1 class="projects-section_heading basic_heading text-center">
+                    My Work
+                </h1>
+                <div
+                    class="projects-section_search-container flex-center aos-init aos-animate"
+                    data-aos="fade-up"
+                >
+                    <label for="search" class="basic_heading"
+                        >Search Project</label
+                    >
+                    <div class="flex-center input-wrapper">
+                        <div class="input-container">
+                            <i class="fa fa-search"></i>
+                            <input
+                                type="search"
+                                id="search"
+                                placeholder="Search...."
+                            />
+                        </div>
+                        <div class="project-section-filter_grid flex-center">
+                            <i
+                                class="fa-solid fa-table-cells-large"
+                                id="gridLayout"
+                            ></i>
+                            <i
+                                class="fa-solid fa-list layouticon-active"
+                                id="listLayout"
+                            ></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="projects-section aos-init aos-animate"
+                    data-aos="fade-up"
+                >
+                    <!-- // PROJECT NO 1 -->
+                    <div class="projects-container">
+                        <div class="project">
+                            <img
+                                src="assets/img/Super-Bank.png"
+                                alt="Website-Img"
+                                class="project_img"
+                            />
+                            <div class="project_overlay">
+                                <h1 class="project_overlay--title">
+                                    Super Bank Website
+                                </h1>
+                                <div class="project_overlay--links flex-center">
+                                    <a
+                                        href="https://mchaxyt.github.io/Super-Bank-Website-Bootstrap-Project/"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                    <a
+                                        href="https://github.com/McHaXYT/Super-Bank-Website-Bootstrap-Project"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <h1 class="project-description_title basic_heading">
+                                Super Bank Website
+                            </h1>
+                            <p class="project-description_des">
+                                Fully Responsive Static Website Made With
+                                Customized Bootstrap , HTML, CSS , Javascript
+                                And Sass.
+                            </p>
+                            <div class="project-description_tech flex-center">
+                                <img
+                                    src="assets/img/HTML5-Logo.png"
+                                    alt="HTML"
+                                    class="project-description_tech--img rotateleft"
+                                    title="HTML"
+                                />
+                                <img
+                                    src="assets/img/CSS3-Logo.png"
+                                    alt="CSS"
+                                    class="project-description_tech--img rotateright"
+                                    title="CSS"
+                                />
+                                <img
+                                    src="assets/img/Bootstrap-Logo.png"
+                                    alt="Bootstrap"
+                                    class="project-description_tech--img rotateleft"
+                                    title="Bootstrap"
+                                />
+                                <img
+                                    src="assets/img/SASS-Logo.png"
+                                    alt="SASS"
+                                    title="SASS"
+                                    class="project-description_tech--img rotateright"
+                                />
+                                <img
+                                    src="assets/img/JS-Logo.png"
+                                    alt="JavaScript"
+                                    class="project-description_tech--img rotateleft"
+                                    title="JavaScript"
+                                />
+                            </div>
+                            <div class="project-description_links flex-center">
+                                <a
+                                    href="https://mchaxyt.github.io/Super-Bank-Website-Bootstrap-Project/"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-link"></i>
+                                </a>
+                                <a
+                                    href="https://github.com/McHaXYT/Super-Bank-Website-Bootstrap-Project"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // PROJECT NO 2 -->
+                    <div class="projects-container">
+                        <div class="project">
+                            <img
+                                src="assets/img/Tic-Tac-Toe.png"
+                                alt="Website-Img"
+                                class="project_img"
+                            />
+                            <div class="project_overlay">
+                                <h1 class="project_overlay--title">
+                                    Tic Tac Toe
+                                </h1>
+                                <div class="project_overlay--links flex-center">
+                                    <a
+                                        href="https://mchaxyt.github.io/Tic-Tac-Toe-Self-Js-Project/"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                    <a
+                                        href="https://github.com/McHaXYT/Tic-Tac-Toe-Self-Js-Project"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <h1 class="project-description_title basic_heading">
+                                Javascript Tic Tac Toe
+                            </h1>
+                            <p class="project-description_des">
+                                Fully Responsive Static Website Made With
+                                Javascript, HTML, CSS And Sass.
+                            </p>
+                            <div class="project-description_tech flex-center">
+                                <img
+                                    src="assets/img/HTML5-Logo.png"
+                                    alt="HTML"
+                                    class="project-description_tech--img rotateleft"
+                                    title="HTML"
+                                />
+                                <img
+                                    src="assets/img/CSS3-Logo.png"
+                                    alt="CSS"
+                                    class="project-description_tech--img rotateright"
+                                    title="CSS"
+                                />
+                                <img
+                                    src="assets/img/JS-Logo.png"
+                                    alt="JavaScript"
+                                    class="project-description_tech--img rotateleft"
+                                    title="JavaScript"
+                                />
+                                <img
+                                    src="assets/img/SASS-Logo.png"
+                                    alt="SASS"
+                                    title="SASS"
+                                    class="project-description_tech--img rotateright"
+                                />
+                            </div>
+                            <div class="project-description_links flex-center">
+                                <a
+                                    href="https://mchaxyt.github.io/Tic-Tac-Toe-Self-Js-Project/"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-link"></i>
+                                </a>
+                                <a
+                                    href="https://github.com/McHaXYT/Tic-Tac-Toe-Self-Js-Project"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // PROJECT NO 3 -->
+                    <div class="projects-container">
+                        <div class="project">
+                            <img
+                                src="assets/img/Bootstrap-Portfolio.png"
+                                alt="Website-Img"
+                                class="project_img"
+                            />
+                            <div class="project_overlay">
+                                <h1 class="project_overlay--title">
+                                    Bootstrap Portfolio Website
+                                </h1>
+                                <div class="project_overlay--links flex-center">
+                                    <a
+                                        href="https://mchaxyt.github.io/Bootstrap-Portfolio-Website-Bootstrap-Made/"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                    <a
+                                        href="https://github.com/McHaXYT/Bootstrap-Portfolio-Website-Bootstrap-Made"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <h1 class="project-description_title basic_heading">
+                                Bootstrap Portfolio Website
+                            </h1>
+                            <p class="project-description_des">
+                                Fully Responsive Website Made With Customized
+                                Bootstrap , HTML, CSS , JavaScript And Sass.
+                            </p>
+                            <div class="project-description_tech flex-center">
+                                <img
+                                    src="assets/img/HTML5-Logo.png"
+                                    alt="HTML"
+                                    class="project-description_tech--img rotateleft"
+                                    title="HTML"
+                                />
+                                <img
+                                    src="assets/img/CSS3-Logo.png"
+                                    alt="CSS"
+                                    class="project-description_tech--img rotateright"
+                                    title="CSS"
+                                />
+                                <img
+                                    src="assets/img/Bootstrap-Logo.png"
+                                    alt="Bootstrap"
+                                    class="project-description_tech--img rotateleft"
+                                    title="Bootstrap"
+                                />
+                                <img
+                                    src="assets/img/SASS-Logo.png"
+                                    alt="SASS"
+                                    title="SASS"
+                                    class="project-description_tech--img rotateright"
+                                />
+                                <img
+                                    src="assets/img/JS-Logo.png"
+                                    alt="JavaScript"
+                                    class="project-description_tech--img rotateleft"
+                                    title="JavaScript"
+                                />
+                            </div>
+                            <div class="project-description_links flex-center">
+                                <a
+                                    href="https://mchaxyt.github.io/Bootstrap-Portfolio-Website-Bootstrap-Made/"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-link"></i>
+                                </a>
+                                <a
+                                    href="https://github.com/McHaXYT/Bootstrap-Portfolio-Website-Bootstrap-Made"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // PROJECT NO 4 -->
+                    <div class="projects-container">
+                        <div class="project">
+                            <img
+                                src="assets/img/Indie-Brew.png"
+                                alt="Website-Img"
+                                class="project_img"
+                            />
+                            <div class="project_overlay">
+                                <h1 class="project_overlay--title">
+                                    IndieBrew Website
+                                </h1>
+                                <div class="project_overlay--links flex-center">
+                                    <a
+                                        href="https://mchaxyt.github.io/IndieBrew-Codewell-Live-Web/"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                    <a
+                                        href="https://github.com/McHaXYT/IndieBrew-Codewell-Live-Web"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <h1 class="project-description_title basic_heading">
+                                IndieBrew Website
+                            </h1>
+                            <p class="project-description_des">
+                                Fully Responsive Static Website Made With HTML,
+                                CSS, JavaScript And Sass.
+                            </p>
+                            <div class="project-description_tech flex-center">
+                                <img
+                                    src="assets/img/HTML5-Logo.png"
+                                    alt="HTML"
+                                    class="project-description_tech--img rotateleft"
+                                    title="HTML"
+                                />
+                                <img
+                                    src="assets/img/CSS3-Logo.png"
+                                    alt="CSS"
+                                    class="project-description_tech--img rotateright"
+                                    title="CSS"
+                                />
+                                <img
+                                    src="assets/img/SASS-Logo.png"
+                                    alt="SASS"
+                                    title="SASS"
+                                    class="project-description_tech--img rotateleft"
+                                />
+                                <img
+                                    src="assets/img/JS-Logo.png"
+                                    alt="JavaScript"
+                                    class="project-description_tech--img rotateright"
+                                    title="JavaScript"
+                                />
+                            </div>
+                            <div class="project-description_links flex-center">
+                                <a
+                                    href="https://mchaxyt.github.io/IndieBrew-Codewell-Live-Web/"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-link"></i>
+                                </a>
+                                <a
+                                    href="https://github.com/McHaXYT/IndieBrew-Codewell-Live-Web"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // PROJECT NO 5 -->
+                    <div class="projects-container">
+                        <div class="project">
+                            <img
+                                src="assets/img/Snipper-Website.png"
+                                alt="Website-Img"
+                                class="project_img"
+                            />
+                            <div class="project_overlay">
+                                <h1 class="project_overlay--title">
+                                    Snipper Website
+                                </h1>
+                                <div class="project_overlay--links flex-center">
+                                    <a
+                                        href="https://mchaxyt.github.io/Snipper-Landing-Page-Codewell-Live-Web/"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                    <a
+                                        href="https://github.com/McHaXYT/Snipper-Landing-Page-Codewell-Live-Web"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <h1 class="project-description_title basic_heading">
+                                Snipper Landing Page
+                            </h1>
+                            <p class="project-description_des">
+                                Fully Responsive Static Website Made With HTML,
+                                CSS , Javascript And Sass.
+                            </p>
+                            <div class="project-description_tech flex-center">
+                                <img
+                                    src="assets/img/HTML5-Logo.png"
+                                    alt="HTML"
+                                    class="project-description_tech--img rotateleft"
+                                    title="HTML"
+                                />
+                                <img
+                                    src="assets/img/CSS3-Logo.png"
+                                    alt="CSS"
+                                    class="project-description_tech--img rotateright"
+                                    title="CSS"
+                                />
+                                <img
+                                    src="assets/img/SASS-Logo.png"
+                                    alt="SASS"
+                                    title="SASS"
+                                    class="project-description_tech--img rotateright"
+                                />
+                                <img
+                                    src="assets/img/JS-Logo.png"
+                                    alt="JavaScript"
+                                    class="project-description_tech--img rotateleft"
+                                    title="JavaScript"
+                                />
+                            </div>
+                            <div class="project-description_links flex-center">
+                                <a
+                                    href="https://mchaxyt.github.io/Snipper-Landing-Page-Codewell-Live-Web/"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-link"></i>
+                                </a>
+                                <a
+                                    href="https://github.com/McHaXYT/Snipper-Landing-Page-Codewell-Live-Web"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // PROJECT NO 6 -->
+                    <div class="projects-container">
+                        <div class="project">
+                            <img
+                                src="assets/img/Clip-Board.png"
+                                alt="Website-Img"
+                                class="project_img"
+                            />
+                            <div class="project_overlay">
+                                <h1 class="project_overlay--title">
+                                    Clip Board Website
+                                </h1>
+                                <div class="project_overlay--links flex-center">
+                                    <a
+                                        href="https://mchaxyt.github.io/Front-End-Mentor-Clip-Board-Landing-Page-Live-Web/"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                    <a
+                                        href="https://github.com/McHaXYT/Front-End-Mentor-Clip-Board-Landing-Page-Live-Web"
+                                        target="_blank"
+                                    >
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <h1 class="project-description_title basic_heading">
+                                Clip Board Website
+                            </h1>
+                            <p class="project-description_des">
+                                Fully Responsive Static Website Made With HTML
+                                And CSS.
+                            </p>
+                            <div class="project-description_tech flex-center">
+                                <img
+                                    src="assets/img/HTML5-Logo.png"
+                                    alt="HTML"
+                                    class="project-description_tech--img rotateleft"
+                                    title="HTML"
+                                />
+                                <img
+                                    src="assets/img/CSS3-Logo.png"
+                                    alt="CSS"
+                                    class="project-description_tech--img rotateright"
+                                    title="CSS"
+                                />
+                            </div>
+                            <div class="project-description_links flex-center">
+                                <a
+                                    href="https://mchaxyt.github.io/Front-End-Mentor-Clip-Board-Landing-Page-Live-Web/"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-link"></i>
+                                </a>
+                                <a
+                                    href="https://github.com/McHaXYT/Front-End-Mentor-Clip-Board-Landing-Page-Live-Web"
+                                    class="project-description_links--link flex-center"
+                                    target="_blank"
+                                >
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- // CONTACT SECTION -->
+            <section
+                class="contact-section aos-init aos-animate body-section"
+                data-aos="fade-up"
+                id="contact-Us"
+            >
+                <h1 class="basic_heading text-center">Contact Me</h1>
+                <div class="contact-container">
+                    <form action="/" id="form">
+                        <div class="formname-container flex-center">
+                            <div class="input-control">
+                                <input
+                                    type="text"
+                                    id="firstname"
+                                    name="First Name"
+                                    placeholder="First Name..."
+                                    autocomplete="off"
+                                />
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-control">
+                                <input
+                                    type="text"
+                                    id="lastname"
+                                    name="Last Name"
+                                    placeholder="Last Name..."
+                                    autocomplete="off"
+                                />
+                                <div class="error"></div>
+                            </div>
+                        </div>
+                        <div class="input-control">
+                            <input
+                                type="text"
+                                id="email"
+                                name="email"
+                                placeholder="Email...."
+                                autocomplete="off"
+                            />
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-control">
+                            <textarea
+                                name="textarea"
+                                id="textArea"
+                                placeholder="Message..."
+                                autocomplete="off"
+                                maxlength="1000"
+                            ></textarea>
+                            <div class="error"></div>
+                        </div>
+                        <button type="submit">Send Message</button>
+                        <div class="social-links-container">
+                            <a href="#" class="social-links-container_anchor">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-links-container_anchor">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                            <a href="#" class="social-links-container_anchor">
+                                <i class="fa fa-github"></i>
+                            </a>
+                            <a href="#" class="social-links-container_anchor">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <!-- // FOOTER -->
+        <footer class="footer flex-center">
+            <div class="footer-container">
+                <div class="footer-container_left">
+                    <h3>
+                        Copyright © <span class="copyright-year">2023</span> .
+                        All rights are reserved
+                    </h3>
+                </div>
+                <div class="footer-container_right flex-center">
+                    <a href="#" class="social-links-container_anchor">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-links-container_anchor">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                    <a href="#" class="social-links-container_anchor">
+                        <i class="fa fa-github"></i>
+                    </a>
+                    <a href="#" class="social-links-container_anchor">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/typed.umd.js"></script>
+    <script
+        src="https://kit.fontawesome.com/22f6533c22.js"
+        crossorigin="anonymous"
+    ></script>
+    <script>
+        AOS.init({
+            duration: 500,
+            easing: "ease-out",
+            delay: 100,
+        });
+        const typeJob = new Typed("#typed-jobspan", {
+            strings: ["Web Developer", "Email Developer", "Freelancer"],
+            typeSpeed: 80,
+            backSpeed: 30,
+            cursorChar: "|",
+            shuffle: false,
+            smartBackspace: false,
+            loop: true,
+        });
+    </script>
+</html>

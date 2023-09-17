@@ -1,0 +1,23 @@
+.skills-section {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    &_heading {
+        margin-bottom: 150px;
+        font-weight: 400;
+    }
+    .skills-container {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 1000px;
+        justify-content: center;
+        gap: 2.5rem;
+        &_img {
+            width: 80px;
+            cursor: pointer;
+            &:hover {
+                transition: all 0.1s ease-out;
+                transform: translateY(-5px);
+            }
+        }
+    }
+}

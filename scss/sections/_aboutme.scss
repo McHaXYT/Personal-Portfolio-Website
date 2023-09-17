@@ -1,0 +1,79 @@
+.aboutme-section {
+    margin-bottom: 200px;
+    .aboutme-section_heading {
+        font-weight: 400;
+    }
+    .aboutme-container {
+        margin-top: 100px;
+        gap: 4rem;
+        flex-wrap: wrap;
+        .aboutmeleft {
+            &_svg {
+                max-width: 100%;
+                width: 500px;
+            }
+        }
+        .aboutmeright {
+            &_heading {
+                max-width: 600px;
+                margin-bottom: 30px;
+                &--h {
+                    color: var(--font-heading-color);
+                    font-size: 24px;
+                    font-family: var(--third-heading-ff);
+                    font-weight: 500;
+                    line-height: 58px;
+                    margin-right: 10px;
+                    display: inline;
+                    border-bottom: 4px solid var(--headingunderline-color);
+                    padding-bottom: 2px;
+                }
+                &--emoji {
+                    font-size: 24px;
+                }
+            }
+            &_des {
+                max-width: 600px;
+                font-size: 20px;
+                line-height: 25px;
+                font-weight: 500;
+            }
+            &_destwo {
+                margin-top: 50px;
+                a {
+                    color: var(--headingunderline-color);
+                    text-decoration: none;
+                    font-size: 20px;
+                    letter-spacing: -1px;
+                    &:hover {
+                        transition: all 0.2s ease-in-out;
+                        color: #67f326;
+                    }
+                }
+            }
+            &_socials {
+                width: 100%;
+                justify-content: space-between;
+                margin-top: 60px;
+                gap: 2rem;
+                a {
+                    text-decoration: none;
+                    color: var(--background-color);
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: var(--font-heading-color);
+                    border: var(--font-heading-color) 2px solid;
+                    font-size: 22px;
+                    transition: all 0.45s;
+                    &:hover {
+                        transform: rotate(360deg);
+                        transform-origin: center center;
+                        color: var(--font-heading-color);
+                        background-color: var(--background-color);
+                    }
+                }
+            }
+        }
+    }
+}

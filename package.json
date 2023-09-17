@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "aos": "^2.3.4",
+        "autoprefixer": "^10.4.15",
+        "sass": "^1.66.1",
+        "typed.js": "^2.0.16"
+    },
+    "name": "my-portfolio",
+    "version": "1.0.0",
+    "description": "Personal Portfolio",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "sass --watch scss:assets/css"
+    },
+    "keywords": [
+        "Personal",
+        "Portfolio"
+    ],
+    "author": "Hasnain Liaquat",
+    "license": "ISC"
+}

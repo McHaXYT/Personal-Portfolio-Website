@@ -1,0 +1,65 @@
+@use "variables" as *;
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.text-center {
+    text-align: center;
+}
+.basic_heading {
+    font-size: 48px;
+    font-family: var(--third-heading-ff);
+    font-weight: 400;
+    &::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 150px;
+        margin: 0 auto;
+        margin-top: -10px;
+        background-color: var(--headingunderline-color);
+    }
+}
+.rotateright {
+    &:hover {
+        transform: rotate(20deg);
+        transform-origin: center center;
+        transition: all 0.3s ease-in-out;
+    }
+}
+.rotateleft {
+    &:hover {
+        transform: rotate(-20deg);
+        transform-origin: center center;
+        transition: all 0.3s ease-in-out;
+    }
+}
+.display-none {
+    display: none !important;
+}
+.project-section-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+.projects-container-grid {
+    flex-direction: column;
+}
+.layouticon-active {
+    color: #09c372 !important;
+}
+.closed-menu {
+    left: -100% !important;
+}
+.open-menu {
+    left: 0 !important;
+}
+.full-underline::before {
+    transform: scaleX(1) !important;
+}

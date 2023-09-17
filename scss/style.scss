@@ -1,0 +1,43 @@
+// // IMPORTING COMPONENTS
+
+@use "utils/media" as *;
+@use "utils/variables" as *;
+@use "utils/basicClasses" as *;
+
+// // IMPORTING SECTIONS
+
+@import "sections/aboutme";
+@import "sections/hero";
+@import "sections/navbar";
+@import "sections/skills";
+@import "sections/projects";
+@import "sections/contact";
+@import "sections/footer";
+@import "utils/basicClasses";
+@import "utils/media";
+
+// // MAIN STYLES BELOW
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scrollbar-color: #8e8e8e #fff;
+    scrollbar-width: thin;
+}
+
+body,
+html {
+    background-color: var(--background-color);
+    color: var(--font-heading-color);
+    scroll-behavior: smooth;
+    scroll-padding-top: 200px;
+    p {
+        color: var(--font-para-color);
+        font-family: var(--third-para-ff);
+    }
+}
+
+main {
+    margin: 0 5% 0 5%;
+}

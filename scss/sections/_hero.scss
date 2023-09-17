@@ -1,0 +1,62 @@
+.hero-section {
+    text-align: center;
+    height: 100vh;
+    .hero {
+        &_img {
+            margin: 0 auto;
+            padding: 0 20px;
+            max-width: 100%;
+            width: 500px;
+            padding-bottom: 25px;
+        }
+        &_name {
+            font-size: 45px;
+            letter-spacing: 1px;
+            line-height: 60px;
+            padding-bottom: 20px;
+            font-family: var(--third-heading-ff);
+            font-weight: 400;
+            &::after {
+                content: "";
+                display: block;
+                height: 4px;
+                width: 250px;
+                margin: 0 auto;
+                background-color: var(--headingunderline-color);
+            }
+        }
+        &_des {
+            font-weight: 400;
+            font-size: 22px;
+            &--job {
+                color: #09c372;
+            }
+            .typed-cursor {
+                color: #09c372;
+                font-size: 22px;
+            }
+        }
+        &_downbtn {
+            text-decoration: none;
+            margin-top: 20px;
+            background-color: var(--font-heading-color);
+            color: var(--background-color);
+            border: var(--font-heading-color) 2px solid;
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            transition: all 0.55s ease-in-out;
+            &:hover {
+                background-color: var(--background-color);
+                color: var(--font-heading-color);
+                transform: rotate(360deg);
+                transform-origin: center center;
+                animation: none;
+            }
+            &:active {
+                transition: all 0.1s ease-out;
+                transform: scale(90%);
+            }
+        }
+    }
+}

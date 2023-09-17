@@ -1,0 +1,45 @@
+// * WHITE MODE COLORS
+
+:root {
+    // Main Colors
+    --background-color: #ffffff;
+    --font-heading-color: #2d2e32;
+    --font-para-color: #555;
+    --overlay-font-color: #fdfdfd;
+    --headingunderline-color: #a8df8e;
+    --border-color: #767676;
+    --footer-heading-color: #f1f1f1;
+    --footer-background-color: #121212;
+    --nav-background-color: #ffffff;
+    --nav-logoheading-color: #2d2e32;
+    --input-background-color: #fff0f5;
+    // Font Family
+    --primary-heading-ff: "Satisfy", cursive;
+    --secondary-heading-ff: "Sacramento", cursive;
+    --third-heading-ff: "Pacifico", cursive;
+    --primary-para-ff: "Recursive", sans-serif;
+    --secondary-para-ff: "Cinzel", serif;
+    --third-para-ff: "Mulish", sans-serif;
+    --fourth-para-ff: "Poppins", sans-serif;
+}
+.dark-mode {
+    // Main Colors
+    --background-color: #121212;
+    --font-heading-color: #e8e8e8;
+    --font-para-color: #fdfdfd;
+    --headingunderline-color: #a8df8e;
+    --border-color: #fdfdfd;
+    --footer-heading-color: #f1f1f1;
+    --footer-background-color: #171717;
+    --nav-background-color: #141414;
+    --nav-logoheading-color: #09c372;
+    --input-background-color: #121212;
+    // Font Family
+    --primary-heading-ff: "Satisfy", cursive;
+    --secondary-heading-ff: "Sacramento", cursive;
+    --third-heading-ff: "Pacifico", cursive;
+    --primary-para-ff: "Recursive", sans-serif;
+    --secondary-para-ff: "Cinzel", serif;
+    --third-para-ff: "Mulish", sans-serif;
+    --fourth-para-ff: "Poppins", sans-serif;
+}
