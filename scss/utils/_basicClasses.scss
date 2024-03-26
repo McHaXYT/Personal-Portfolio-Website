@@ -25,6 +25,7 @@
     }
 }
 .rotateright {
+    transition: all 0.3s ease-in-out;
     &:hover {
         transform: rotate(20deg);
         transform-origin: center center;
@@ -32,10 +33,10 @@
     }
 }
 .rotateleft {
+    transition: all 0.3s ease-in-out;
     &:hover {
         transform: rotate(-20deg);
         transform-origin: center center;
-        transition: all 0.3s ease-in-out;
     }
 }
 .display-none {

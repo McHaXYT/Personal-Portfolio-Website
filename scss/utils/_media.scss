@@ -87,6 +87,23 @@
                 }
             }
         }
+        .clientwork-container {
+            .client-description {
+                &_title {
+                    font-size: 28px;
+                }
+                &_tech {
+                    &--img {
+                        width: 40px;
+                    }
+                }
+                &_links {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
     }
     // Contact Section
     .contact-section {
