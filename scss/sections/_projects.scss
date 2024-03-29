@@ -1,6 +1,20 @@
 .project-section-container {
     margin-top: 200px;
     margin-bottom: 200px;
+    .client-heading {
+        font-size: 48px;
+        font-family: var(--third-heading-ff);
+        font-weight: 400;
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            width: 150px;
+            margin: 0 auto;
+            margin-top: -10px;
+            background-color: var(--headingunderline-color);
+        }
+    }
 }
 .myWork-container {
     margin-top: 150px;

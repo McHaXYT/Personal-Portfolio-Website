@@ -41,6 +41,19 @@
   .skills-section .skills-container_img {
     width: 60px;
   }
+  .project-section-container .client-heading {
+    font-size: 32px;
+    font-family: var(--third-heading-ff);
+    font-weight: 400;
+  }
+  .project-section-container .client-heading::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 160px;
+    margin: 0 auto;
+    background-color: var(--headingunderline-color);
+  }
   .projects-section_heading {
     font-size: 32px;
     margin-bottom: 100px;
@@ -49,7 +62,11 @@
     margin: 0 auto;
   }
   .projects-section {
+    margin-top: 100px;
     margin-bottom: 200px;
+  }
+  .projects-section_search-container {
+    margin-top: 0px;
   }
   .projects-section .projects-container .project-description_title {
     font-size: 28px;
@@ -200,6 +217,35 @@
   }
   .project-section-filter_grid i {
     display: none !important;
+  }
+}
+@media (max-width: 960px) {
+  .projects-section .clientwork-container .client-description {
+    text-align: center;
+  }
+  .projects-section .clientwork-container .client-description_title {
+    font-size: 28px;
+  }
+  .projects-section .clientwork-container .client-description_title::after {
+    margin: 0 auto;
+  }
+  .projects-section .clientwork-container .client-description_tech {
+    align-items: center;
+    justify-content: center;
+  }
+  .projects-section .clientwork-container .client-description_tech--img {
+    width: 40px;
+  }
+  .projects-section .clientwork-container .client-description_links {
+    align-items: center;
+    justify-content: center;
+  }
+  .projects-section .clientwork-container .client-description_links a {
+    font-size: 18px;
+  }
+  .projects-section .clientwork-container .client-description .client-review_links {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 710px) {
@@ -391,10 +437,11 @@
   text-decoration: none;
   font-size: 20px;
   letter-spacing: -1px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
 }
 .aboutme-section .aboutme-container .aboutmeright_destwo a:hover {
-  transition: all 0.2s ease-in-out;
-  color: #67f326;
+  color: #7dcd58;
 }
 .aboutme-section .aboutme-container .aboutmeright_socials {
   width: 100%;
@@ -443,7 +490,8 @@
   content: "";
   display: block;
   height: 4px;
-  width: 250px;
+  width: 180px;
+  border-radius: 8px;
   margin: 0 auto;
   background-color: var(--headingunderline-color);
 }
@@ -681,6 +729,20 @@
 .project-section-container {
   margin-top: 200px;
   margin-bottom: 200px;
+}
+.project-section-container .client-heading {
+  font-size: 48px;
+  font-family: var(--third-heading-ff);
+  font-weight: 400;
+}
+.project-section-container .client-heading::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: -10px;
+  background-color: var(--headingunderline-color);
 }
 
 .myWork-container {
@@ -1489,6 +1551,19 @@
   .skills-section .skills-container_img {
     width: 60px;
   }
+  .project-section-container .client-heading {
+    font-size: 32px;
+    font-family: var(--third-heading-ff);
+    font-weight: 400;
+  }
+  .project-section-container .client-heading::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 160px;
+    margin: 0 auto;
+    background-color: var(--headingunderline-color);
+  }
   .projects-section_heading {
     font-size: 32px;
     margin-bottom: 100px;
@@ -1497,7 +1572,11 @@
     margin: 0 auto;
   }
   .projects-section {
+    margin-top: 100px;
     margin-bottom: 200px;
+  }
+  .projects-section_search-container {
+    margin-top: 0px;
   }
   .projects-section .projects-container .project-description_title {
     font-size: 28px;
@@ -1648,6 +1727,35 @@
   }
   .project-section-filter_grid i {
     display: none !important;
+  }
+}
+@media (max-width: 960px) {
+  .projects-section .clientwork-container .client-description {
+    text-align: center;
+  }
+  .projects-section .clientwork-container .client-description_title {
+    font-size: 28px;
+  }
+  .projects-section .clientwork-container .client-description_title::after {
+    margin: 0 auto;
+  }
+  .projects-section .clientwork-container .client-description_tech {
+    align-items: center;
+    justify-content: center;
+  }
+  .projects-section .clientwork-container .client-description_tech--img {
+    width: 40px;
+  }
+  .projects-section .clientwork-container .client-description_links {
+    align-items: center;
+    justify-content: center;
+  }
+  .projects-section .clientwork-container .client-description_links a {
+    font-size: 18px;
+  }
+  .projects-section .clientwork-container .client-description .client-review_links {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (max-width: 710px) {
