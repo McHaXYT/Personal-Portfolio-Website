@@ -1,4 +1,4 @@
-# Hasnain Liaquat | Web Developer 
+# Haxnain's Portfolio | Web Developer 
 
 # My Personal Portfolio Website | Version 1.0
 
@@ -24,5 +24,23 @@ Update Date 17/September/2023 , 10:18 PM, Sunday.
 - Updated Navigation bar
 - Updated "Skill Section"
 
-Current Version (2.0.0) Minor Over Haul
 Update Date 26/March/2024 , 6:01 PM, Tuesday.
+
+# My Personal Portfolio Website | Version 2.0
+
+## Bugs & Fixes
+
+- Fixed AOS Bug
+- Removed Bloatware Code
+- Removed Search Query
+- Removed Section "Client Work"
+
+## What's New
+
+- Added Search Filter By Tags
+- Minor Changes In Project Section
+- Added A New Project ( HTML Email Template )
+
+Update Date 24/June/2024 , 7:12 PM, Monday.
+Current Version (2.1.0) Minor Over Haul
+
