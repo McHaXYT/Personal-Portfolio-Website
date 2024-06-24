@@ -1,4 +1,3 @@
-const searchInput = document.getElementById("search");
 const projectTitle = document.querySelectorAll(".project-description");
 const gridLayoutBtn = document.getElementById("gridLayout");
 const listLayoutBtn = document.getElementById("listLayout");
@@ -20,6 +19,7 @@ const textArea = document.getElementById("textArea");
 const checkbox = document.getElementById("checkbox");
 const heroJobSpan = document.getElementById("typed-jobspan");
 const bodySections = document.querySelectorAll(".body-section");
+var tagBtns = document.querySelectorAll(".tagButtons");
 
 // Spy Scroll
 
@@ -165,37 +165,29 @@ mobileMenuLinksAnchors.forEach((mobileMenuLinkAnchor) => {
     });
 });
 
-// search layout
+// search filter by tag
 
-gridLayoutBtn.addEventListener("click", function () {
-    gridLayoutBtn.classList.add("layouticon-active");
-    listLayoutBtn.classList.remove("layouticon-active");
-    projectSection.classList.add("project-section-grid");
-    projectContainer.forEach((e) => {
-        e.classList.add("projects-container-grid");
-    });
+tagBtns.forEach((tagBtn) => {
+    tagBtn.addEventListener("click", () => tagFilter(tagBtn.id.toUpperCase()));
 });
 
-listLayoutBtn.addEventListener("click", function () {
-    gridLayoutBtn.classList.remove("layouticon-active");
-    listLayoutBtn.classList.add("layouticon-active");
-    projectSection.classList.remove("project-section-grid");
-    projectContainer.forEach((e) => {
-        e.classList.remove("projects-container-grid");
-    });
-});
-
-// search filter
-searchInput.addEventListener("keyup", (e) => {
-    let inputName = e.currentTarget.value.toLowerCase();
-    console.log(inputName);
-    for (i = 0; i < projectTitle.length; i++) {
-        let a = projectTitle[i].getElementsByTagName("h1")[0];
-        let textValue = a.textContent || a.innerHTML;
-        if (textValue.toLowerCase().indexOf(inputName) > -1) {
-            projectTitle[i].parentElement.style.display = "";
+function tagFilter(btnId) {
+    tagBtns.forEach((tagBtn) => {
+        if (tagBtn == event.target) {
+            tagBtn.classList.add("active");
         } else {
-            projectTitle[i].parentElement.style.display = "none";
+            tagBtn.classList.remove("active");
+        }
+    });
+    for (i = 0; i < projectContainer.length; i++) {
+        if (btnId != "ALL") {
+            if (projectContainer[i].id.toUpperCase() === btnId) {
+                projectContainer[i].style.display = "";
+            } else {
+                projectContainer[i].style.display = "none";
+            }
+        } else {
+            projectContainer[i].style.display = "";
         }
     }
-});
+}

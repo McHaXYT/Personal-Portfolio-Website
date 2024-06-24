@@ -64,3 +64,7 @@
 .full-underline::before {
     transform: scaleX(1) !important;
 }
+.active {
+    color: var(--font-heading-color);
+    background-color: var(--background-color);
+}
