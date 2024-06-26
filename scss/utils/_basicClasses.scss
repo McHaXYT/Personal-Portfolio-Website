@@ -14,15 +14,10 @@
     font-size: 48px;
     font-family: var(--third-heading-ff);
     font-weight: 400;
-    &::after {
-        content: "";
-        display: block;
-        height: 4px;
-        width: 150px;
-        margin: 0 auto;
-        margin-top: -10px;
-        background-color: var(--headingunderline-color);
-    }
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+    text-decoration-color: var(--headingunderline-color);
 }
 .rotateright {
     transition: all 0.3s ease-in-out;
