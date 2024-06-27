@@ -55,3 +55,15 @@ Update Date 24/June/2024 , 7:12 PM, Monday.
 -   Added Few More Projects
 
 Update Date 26/June/2024 , 6:38 PM, Wednesday.
+
+# My Personal Portfolio Website | Version 2.2.1
+
+## Bugs & Fixes
+
+-   Fixed Project Images
+
+## What's New
+
+-   Added 6 More HTML Email Projects
+
+Update Date 28/June/2024 , 12:38 PM, Friday.

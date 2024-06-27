@@ -33,7 +33,7 @@ New Version (1.0.1)
 -   Updated About Me Section Description
 -   Added New Media Queries
 
-# - BUGS FIXES VERSION 2.0.1 ==> VERSION 2.1.0 - ( 24 / June / 2024, 7:12 PM, Tuesday )
+# - PORTFOLIO OVER-HAUL VERSION & BUG FIXES 2.0.1 ==> VERSION 2.1.0 - ( 24 / June / 2024, 7:12 PM, Tuesday )
 
 ## Bugs & Fixes
 
@@ -48,7 +48,7 @@ New Version (1.0.1)
 -   Minor Changes In Project Section
 -   Added A New Project ( HTML Email Template )
 
-# - BUGS FIXES VERSION 2.1.0 ==> VERSION 2.2.0 - ( 26 / June / 2024, 6:38 PM, Wednesday )
+# - PORTFOLIO OVER-HAUL VERSION 2.1.0 ==> VERSION 2.2.0 - ( 26 / June / 2024, 6:38 PM, Wednesday )
 
 ## Bugs & Fixes
 
@@ -58,3 +58,13 @@ New Version (1.0.1)
 
 -   Added Another Project Tag
 -   Added Few More Projects
+
+# - PORTFOLIO NEW UPDATE VERSION 2.1.0 ==> VERSION 2.2.0 - ( 28 / June / 2024, 12:38 PM, Wednesday )
+
+## Bugs & Fixes
+
+-   Fixed Project Images
+
+## What's New
+
+-   Added 6 More HTML Email Projects

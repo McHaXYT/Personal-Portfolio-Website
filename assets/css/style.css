@@ -789,7 +789,7 @@
   border-radius: 20px;
   display: block;
   max-width: 100%;
-  height: fit-content;
+  max-height: 100%;
 }
 .projects-section .projects-container .project_overlay {
   position: absolute;
